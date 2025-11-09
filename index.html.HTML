@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Saran SK — Portfolio</title>
+    <link rel="stylesheet" href="./SARAN S PORTFOLIO.CSS">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;800&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <header class="site-header wrap" role="banner">
+        <a class="brand" href="#home">
+            <div class="logo">SS</div>
+            <div>
+                <div class="title">Saran SK</div>
+                <div class="subtitle">Fullstack / Python Developer</div>
+            </div>
+        </a>
+
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a class="nav-cta" href="#contact">Hire Me</a>
+        </nav>
+
+        <button class="hamburger" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+
+    <main id="home" class="wrap">
+        <!-- Hero -->
+        <section class="hero" aria-label="Introduction">
+            <div class="intro">
+                <div class="eyebrow">Hello — welcome</div>
+                <h1 class="name">Saran SK</h1>
+                <div class="role">Python Full-Stack Developer <span style="opacity:.7;font-size:13px;margin-left:8px">•
+                        Chennai, India</span></div>
+
+                <p class="tagline">I build complete web applications — from polished front-end interfaces to robust
+                    backend services using Python (Flask/Django), JavaScript, and modern tooling.</p>
+
+                <p><strong>Specialties:</strong> Web Apps, APIs, Responsive UI, SQL/NoSQL, Automation & Deployment</p>
+
+                <div style="margin-top:14px">
+                    <span class="typing" id="typing"></span>
+                </div>
+
+                <div class="actions">
+                    <a class="btn" href="#projects">View Projects</a>
+                    <a class="btn ghost" href="./SARAN_copleted resume[1].docx" download>Download Resume</a>
+                </div>
+
+                <div class="social-row" role="list" style="margin-top:18px">
+                    <a role="listitem" href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a role="listitem" href="#" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a role="listitem" href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a role="listitem" href="https://www.linkedin.com/in/saran-sk-b28927292/" title="LinkedIn"
+                        target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="home-image" aria-hidden="false">
+                <img src="./my blazer pic.jpg" alt="Portrait of Saran SK">
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-sub">I'm Saran — a Full-Stack developer who enjoys building beautiful, responsive, and
+                accessible web applications.</p>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="avatar">
+                        <img src="./blzer pic 2.jpg" alt="Saran's avatar">
+                    </div>
+                    <div class="about-me">
+                        <h3>Saran SK</h3>
+                        <p>I build user-friendly web interfaces and robust backends (Flask/Django). I focus on writing
+                            clear, maintainable code and delivering working features fast. I also enjoy learning new
+                            tech and improving performance and UX.</p>
+                        <div style="display:flex;gap:8px;flex-wrap:wrap">
+                            <a class="u-link" href="#projects">Recent projects</a>
+                            <span style="color:var(--muted)"> • </span>
+                            <a class="u-link" href="#contact">Get in touch</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 style="margin-bottom:10px">Tech Stack</h4>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-name"><span>HTML & CSS</span><span>90%</span></div>
+                            <div class="progress"><span data-width="90%"></span></div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-name"><span>JavaScript</span><span>75%</span></div>
+                            <div class="progress"><span data-width="75%"></span></div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-name"><span>Python</span><span>80%</span></div>
+                            <div class="progress"><span data-width="80%"></span></div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-name"><span>Bootstrap / UI</span><span>70%</span></div>
+                            <div class="progress"><span data-width="70%"></span></div>
+                        </div>
+                    </div>
+
+                    <h4 style="margin-top:18px;margin-bottom:10px">Professional skills</h4>
+                    <div class="soft-grid">
+                        <div class="soft-pill">Creativity</div>
+                        <div class="soft-pill">Communication</div>
+                        <div class="soft-pill">Problem-solving</div>
+                        <div class="soft-pill">Teamwork</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills anchor for header links -->
+        <section id="skills" class="section" aria-label="Skills section" style="padding-top:20px"></section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Latest Projects</h2>
+            <p class="section-sub">A few small projects demonstrating front-end and JavaScript skills. Click to view
+                live or open the code.</p>
+
+            <div class="projects-grid">
+                <article class="card" aria-labelledby="proj-1">
+                    <div class="thumb"><img src="./calc.png" alt="Calculator project screenshot"></div>
+                    <h4 id="proj-1">Calculator</h4>
+                    <p>A simple calculator web app built using HTML, CSS, and JavaScript — supports basic arithmetic.
+                    </p>
+                    <div class="card-actions">
+                        <a href="./CALCULATOR/calci.html" target="_blank" rel="noopener">View</a>
+                        <a href="#" target="_blank" rel="noopener">Code</a>
+                    </div>
+                </article>
+
+                <article class="card" aria-labelledby="proj-2">
+                    <div class="thumb"><img src="./count.png" alt="Countdown project screenshot"></div>
+                    <h4 id="proj-2">Countdown Timer</h4>
+                    <p>A countdown web application with a responsive layout and pause / resume features.</p>
+                    <div class="card-actions">
+                        <a href="./COUNT DOWN/coundown.html" target="_blank" rel="noopener">View</a>
+                        <a href="#" target="_blank" rel="noopener">Code</a>
+                    </div>
+                </article>
+
+                <article class="card" aria-labelledby="proj-3">
+                    <div class="thumb"><img src="./qr.png" alt="QR code generator screenshot"></div>
+                    <h4 id="proj-3">QR Code Generator</h4>
+                    <p>Generate QR codes on the fly using JavaScript and canvas; downloadable result.</p>
+                    <div class="card-actions">
+                        <a href="./QRCODE/QR.html" target="_blank" rel="noopener">View</a>
+                        <a href="#" target="_blank" rel="noopener">Code</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-sub">Interested in collaborating? Send me a message and I'll get back to you.</p>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Get in touch</h3>
+                    <ul class="contact-list">
+                        <li><i class="fa-solid fa-paper-plane"
+                                style="color:var(--accent)"></i><span>saransaran5475@gmail.com</span></li>
+                        <li><i class="fa-solid fa-phone" style="color:var(--accent)"></i><span>+91 14 7852 369</span>
+                        </li>
+                        <li><i class="fa-brands fa-linkedin" style="color:var(--accent)"></i><span><a class="u-link"
+                                    href="https://www.linkedin.com/in/saran-sk-b28927292/" target="_blank"
+                                    rel="noopener">LinkedIn profile</a></span></li>
+                    </ul>
+                    <p style="color:var(--muted)">Available for full-time or contract work. Open to remote roles.</p>
+                </div>
+
+                <div class="contact-card contact-form" aria-labelledby="contact-form-title"
+                    style="border:2px solid black">
+                    <h3 id="contact-form-title">Send a message</h3>
+                    <form onsubmit="handleContact(event)" novalidate>
+                        <label class="sr-only" for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Your name" required>
+
+                        <label class="sr-only" for="email" style="border:2px solid black">Email</label>
+                        <input id="email" name="email" type="email" placeholder="Your email" required>
+
+                        <label class="sr-only" for="subject">Subject</label>
+                        <input id="subject" name="subject" type="text" placeholder="Subject">
+
+                        <label class="sr-only" for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+
+                        <button type="submit" class="send">Send Message</button>
+                        <div id="contact-note" style="margin-top:10px;color:var(--muted);display:none"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div>Developed by Saran SK · © <span id="year"></span></div>
+        </footer>
+    </main>
+
+    <!-- Mobile nav overlay -->
+    <div id="mobile-menu"
+        style="position:fixed;left:0;right:0;top:0;bottom:0;background:linear-gradient(180deg, rgba(10,10,10,0.6), rgba(0,0,0,0.8));display:none;z-index:1200;padding:80px 20px">
+        <div style="max-width:360px;margin:0 auto">
+            <nav style="display:flex;flex-direction:column;gap:12px">
+                <a href="#home"
+                    style="padding:12px 16px;background:rgba(255,255,255,0.03);border-radius:10px;color:var(--text);text-decoration:none;font-weight:700">Home</a>
+                <a href="#about"
+                    style="padding:12px 16px;background:rgba(255,255,255,0.03);border-radius:10px;color:var(--text);text-decoration:none;font-weight:700">About</a>
+                <a href="#skills"
+                    style="padding:12px 16px;background:rgba(255,255,255,0.03);border-radius:10px;color:var(--text);text-decoration:none;font-weight:700">Skills</a>
+                <a href="#projects"
+                    style="padding:12px 16px;background:rgba(255,255,255,0.03);border-radius:10px;color:var(--text);text-decoration:none;font-weight:700">Projects</a>
+                <a href="#contact"
+                    style="padding:12px 16px;background:linear-gradient(90deg,var(--accent), #63E6BE);border-radius:10px;color:#081b29;text-decoration:none;font-weight:800">Contact</a>
+            </nav>
+            <div style="margin-top:18px;text-align:center"><button onclick="toggleMobileMenu()"
+                    style="padding:8px 14px;border-radius:10px;background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--text)">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./SARAN S PORTFOLIO.JS"></script>
+</body>
+
+</html>
